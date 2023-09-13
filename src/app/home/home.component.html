@@ -1,0 +1,16 @@
+<div *ngIf="isSignedin">
+	<h4>Welcome back, {{ signedinUser }}!</h4>
+
+	<!--<div *ngFor="let greet of greeting">
+		{{greet}}
+	</div>-->
+
+	<h4><a style="text-decoration: underline; cursor: pointer;" (click)="doSignout()">Signout</a></h4>
+</div>
+
+<app-about></app-about>
+<app-gallary></app-gallary>
+<app-menu></app-menu>
+<app-chef></app-chef>
+<app-testimonial></app-testimonial>
+
